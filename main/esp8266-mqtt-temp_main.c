@@ -1,26 +1,23 @@
 #include <stdio.h>
+
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "freertos/event_groups.h"
 #include "freertos/queue.h"
+
 #include "esp_system.h"
 #include "esp_spi_flash.h"
 #include "esp_wifi.h"
 #include "esp_event_loop.h"
+
 #include "nvs_flash.h"
 #include "driver/gpio.h"
 #include "mqtt_client.h"
 
-#define WIFI_SSID ""
-#define WIFI_PASS ""
+#include "vars_config.h"
 
 #define DHT11_PIN GPIO_NUM_4
 
-#define MQTT_BROKER_URI "mqtt://test.mosquitto.org"
-#define MQTT_TEMPERATURE_TOPIC "mestrado/iot/aluno/isabella/temperatura"
-#define MQTT_HUMIDITY_TOPIC "mestrado/iot/aluno/isabella/umidade"
-
-static EventGroupHandle_t wifi_event_group;
 const int WIFI_CONNECTED_BIT = BIT0;
 
 typedef struct {
@@ -28,6 +25,7 @@ typedef struct {
     uint8_t humidity;
 } dht_data_t;
 
+static EventGroupHandle_t wifi_event_group;
 static QueueHandle_t dht_queue;
 
 static esp_err_t event_handler(void *ctx, system_event_t *event) {
