@@ -6,12 +6,12 @@
 
 ## About
 
-This repository houses a collection of handy scripts that I use regularly to automate various tasks in my routine.
+ESP8266 project to read temperature and humidity data from a DHT11 sensor and send it to an MQTT broker.
 
 ## Run
 
-
-`sudo apt-get install mosquitto mosquitto-clients
+```bash
+sudo apt-get install mosquitto mosquitto-clients
 sudo nano /etc/mosquitto/conf.d/default.conf
 
 listener 1883
@@ -26,9 +26,8 @@ sudo ufw allow 1883/tcp
 mosquitto_sub -h localhost -t "mestrado/iot/aluno/isabella/temperatura"
 mosquitto_sub -h localhost -t "mestrado/iot/aluno/isabella/umidade"
 
-
-
-`
+./run
+```
 
 ## Contributing
 

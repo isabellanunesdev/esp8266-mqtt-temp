@@ -1,0 +1,48 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="AVXgzHSPoNb--l9u4e_D">
+    <mxGraphModel dx="1434" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XnRsN8tO_mFTYSEiO14Z-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=19;fontColor=#FFFFFF;labelBackgroundColor=none;" parent="1" source="XnRsN8tO_mFTYSEiO14Z-1" target="XnRsN8tO_mFTYSEiO14Z-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XnRsN8tO_mFTYSEiO14Z-1" value="Dispositivo" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=bottom;spacingLeft=0;fontColor=#FFFFFF;fontSize=19;whiteSpace=wrap;spacingBottom=2;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="270" y="330" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XnRsN8tO_mFTYSEiO14Z-2" value="" style="sketch=0;dashed=0;connectable=0;html=1;fillColor=#757575;strokeColor=none;shape=mxgraph.gcp2.circuit_board;part=1;fontSize=19;fontColor=#FFFFFF;labelBackgroundColor=none;" parent="XnRsN8tO_mFTYSEiO14Z-1" vertex="1">
+          <mxGeometry x="0.5" width="50" height="45" relative="1" as="geometry">
+            <mxPoint x="-25" y="12.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XnRsN8tO_mFTYSEiO14Z-3" value="Internet" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;fontSize=19;fontColor=#FFFFFF;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="390" y="220" width="111.11" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XnRsN8tO_mFTYSEiO14Z-6" value="Cliente Web" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.management_console;fillColor=#D2D3D3;gradientColor=none;fontSize=19;fontColor=#FFFFFF;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="922.5" y="310" width="63" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="XnRsN8tO_mFTYSEiO14Z-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=19;fontColor=#FFFFFF;labelBackgroundColor=none;" parent="1" source="XnRsN8tO_mFTYSEiO14Z-7" target="XnRsN8tO_mFTYSEiO14Z-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XnRsN8tO_mFTYSEiO14Z-7" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mqtt_protocol;fillColor=#5294CF;gradientColor=none;fontSize=19;fontColor=#FFFFFF;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="585" y="222" width="63" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="XnRsN8tO_mFTYSEiO14Z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=19;fontColor=#FFFFFF;labelBackgroundColor=none;" parent="1" source="XnRsN8tO_mFTYSEiO14Z-3" target="XnRsN8tO_mFTYSEiO14Z-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XnRsN8tO_mFTYSEiO14Z-9" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Broker&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#FFFFFF;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=19;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.mq_broker;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="700" y="151" width="78" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="XnRsN8tO_mFTYSEiO14Z-11" value="Dashboard da Disciplina" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=19;image=img/lib/azure2/general/Dashboard.svg;fontColor=#FFFFFF;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="922.5" y="172" width="68" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="XnRsN8tO_mFTYSEiO14Z-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.025;entryY=0.455;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=19;fontColor=#FFFFFF;labelBackgroundColor=none;" parent="1" source="XnRsN8tO_mFTYSEiO14Z-9" target="XnRsN8tO_mFTYSEiO14Z-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XnRsN8tO_mFTYSEiO14Z-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=19;fontColor=#FFFFFF;labelBackgroundColor=none;" parent="1" source="XnRsN8tO_mFTYSEiO14Z-9" target="XnRsN8tO_mFTYSEiO14Z-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

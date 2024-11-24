@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    container_name: mosquitto_broker
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+      - ./data:/mosquitto/data
+      - ./logs:/mosquitto/logs
+    environment:
+      - MQTT_HOST=""
+    networks:
+      mqtt_network:
+        ipv4_address: ""
+    restart: always
+
+networks:
+  mqtt_network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: ""

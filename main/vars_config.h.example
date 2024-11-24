@@ -1,13 +1,13 @@
 #ifndef VARS_CONFIG_H
 #define VARS_CONFIG_H
 
-#define DHT11_PIN GPIO_NUM_4
+#define WIFI_SSID ""
+#define WIFI_PASS ""
 
-#define WIFI_SSID "Casa_do_Batman"
-#define WIFI_PASS "Julinho2.0"
-
-#define MQTT_BROKER_URI "mqtt://test.mosquitto.org"
-#define MQTT_TEMPERATURE_TOPIC "mestrado/iot/aluno/isabella/temperatura"
-#define MQTT_HUMIDITY_TOPIC "mestrado/iot/aluno/isabella/umidade"
+#define MQTT_ENABLED 1
+#define MQTT_BROKER_URI ""
+#define INTERNAL_MQTT_BROKER_URI ""
+#define MQTT_TEMPERATURE_TOPIC ""
+#define MQTT_HUMIDITY_TOPIC ""
 
 #endif // VARS_CONFIG_H
